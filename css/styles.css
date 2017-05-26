@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fcf6c2;
+}
+
+/* Main Container */
+.wrap {
+  background: #e8de86;
+}
+
+/* Nav Bar */
+.nav-bar {
+  float: right;
+  border: 2px solid blue;
+}
+
+/* Featured Product */
+.featured-product {
+  margin-top: 20px;
+  border: 2px solid red;
+}
+
+/* Summary */
+.summary {
+  float: left;
+  margin-top: 20px;
+  border: 2px solid green;
+}
+
+/* Table */
+table {
+  float: right;
+  border: 2px solid red;
+}
+/* Gallery */
+.gallery {
+  margin-top: 20px;
+  border: 2px solid blue;
+}
