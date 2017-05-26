@@ -24,7 +24,7 @@ body {
 
 /* Nav Bar */
 .nav-bar{
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 }
 .nav-bar-title {
   float: left;
@@ -45,18 +45,24 @@ body {
 
 /* Featured Product */
 .featured-product img {
-  height: 600px;
+  height: 280px;
   display: block;
   margin: 0 auto;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
-.featured-product h2{
+.featured-product h2 {
   text-align: center;
+ }
+
+
+ .featured-product h3 {
+   text-align: right;
  }
 /* Summary */
 .summary {
   float: left;
+  width: 50%;
   margin-top: 20px;
   border: 2px solid green;
 }
@@ -64,10 +70,18 @@ body {
 /* Table */
 table {
   float: right;
+  margin-top: 20px;
+  width: 50%;
   border: 2px solid red;
 }
 /* Gallery */
 .gallery {
   margin-top: 20px;
+  width: 100%;
   border: 2px solid blue;
+}
+
+.gallery img {
+  height: 100px;
+  width: auto;
 }
