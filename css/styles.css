@@ -15,10 +15,10 @@ body {
 
 /* Main Container */
 .wrap {
-  position: relative;
+  /*position: relative;*/
   margin-left: 50px;
   margin-right: 50px;
-
+  padding: 0 10px;
   background: #fcf6c2;
 }
 
@@ -37,6 +37,14 @@ body {
   margin: 20px 20px 0 0;
   font-size: 22px;
 }
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 .clearfix:after {
   content: "";
   display: table;
@@ -58,13 +66,21 @@ body {
 
  .featured-product h3 {
    text-align: right;
+   font-style: italic;
+   font-size: 17px;
+ }
+
+ span {
+   font-style: italic;
+   font-size: 15px;
  }
 /* Summary */
 .summary {
   float: left;
   width: 50%;
   margin-top: 20px;
-  border: 2px solid green;
+  padding: 0 10px;
+  /*border: 2px solid green;*/
 }
 
 /* Table */
@@ -72,13 +88,22 @@ table {
   float: right;
   margin-top: 20px;
   width: 50%;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
+}
+
+th {
+  height: 40px;
 }
 /* Gallery */
 .gallery {
+  float: left;
   margin-top: 20px;
   width: 100%;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
+}
+
+.gallery h3 {
+  text-align: center;
 }
 
 .gallery img {
