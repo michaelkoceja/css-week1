@@ -1,26 +1,50 @@
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: #fcf6c2;
+  background: #e8de86;
 }
 
 /* Main Container */
 .wrap {
-  background: #e8de86;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  background: #fcf6c2;
 }
 
 /* Nav Bar */
-.nav-bar {
-  float: right;
+.nav-bar{
   border: 2px solid blue;
+}
+.nav-bar li {
+  float: right;
+  display: inline;
+  list-style: none;
+  margin: 20px 20px 0 0;
+  font-size: 22px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Featured Product */
 .featured-product {
   margin-top: 20px;
   border: 2px solid red;
+}
+
+#feature-guitar {
+  height: 600px;
+  width: auto;
+  display: block;
+  z-index: 0;
+  margin: 0;
 }
 
 /* Summary */
