@@ -101,6 +101,15 @@ th, td {
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
+
+a:hover {
+  color: brown;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
 /* Gallery */
 .gallery {
   float: left;
