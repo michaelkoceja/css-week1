@@ -51,6 +51,7 @@ hr {
 
 /* Featured Product */
 .featured-product img {
+  position: relative;
   height: 280px;
   display: block;
   margin: 0 auto;
@@ -63,6 +64,9 @@ hr {
 
 
  .featured-product h3 {
+   position: absolute;
+   left: 50%;
+   bottom: 35%;
    text-align: right;
    font-style: italic;
    font-size: 12px;
